@@ -1,0 +1,51 @@
+.App {
+  font-family: "Bellota", cursive;
+  text-align: left;
+  max-width: 600px;
+  margin: auto;
+  padding: 2.2rem;
+}
+
+:root {
+  --primary-color: #fed7aa;
+}
+
+body {
+  margin: 0px;
+  background: blanchedalmond;
+}
+
+hr {
+  position: relative;
+  top: 15px;
+  border-style: solid;
+  height: 3.5px;
+  background: var(--primary-color);
+  margin-bottom: 50px;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+  background: var(--primary-color);
+  padding: 0.5rem 1rem;
+  border: 1px solid;
+  margin: 1rem 0.5rem;
+  border-radius: 0.3rem;
+  border-bottom-right-radius: 1.3rem;
+}
+
+ul {
+  padding-inline-start: 0;
+}
+
+li {
+  list-style-type: none;
+  padding: 1rem;
+  background: var(--primary-color);
+  width: 80%;
+  margin: 1.5rem 0rem;
+  border: 1px solid;
+  border-radius: 0.3rem;
+  border-bottom-right-radius: 3.2rem;
+}
